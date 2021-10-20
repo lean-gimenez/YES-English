@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Lean</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header" class="text">
+        <h1 class="header__title">
+            <a href="index.html">Yes! English</a>
+        </h1>
+        <nav class="header__navbar">
+            <ul class="header__list">
+                <li class="header__list-item"><a class="header__list-item--hover" href="aboutLean.html">About Lean</a></li>
+                <li class="header__list-item"><a class="header__list-item--hover" href="levelTest.html">Level Test</a></li>
+                <li class="header__list-item"><a class="header__list-item--hover" href="exercises.html">Exercises</a> </li>
+                <li class="header__list-item"><a class="header__list-item--hover" href="pricing.html">Pricing</a></li>
+                <li class="header__list-item"><a class="header__list-item--hover" href="contactLean.html">Contact Lean</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <!-- FORMULARIO -->
+    <div class="mainContent-contact text">
+        <form action="#">
+
+            <!-- CAMPO 1 -->
+            <fieldset class="form__fieldset1">
+                <legend> Hello, stranger! </legend>
+                <div class="form__innerfield">
+                    <label for="name" class="label">Your name</label>
+                    <input id="name" class="contact" type="text" name="name" placeholder="Full name">
+                    <label for="email" class="label">Your e-mail</label>
+                    <input id="email" class="contact" type="email" name="mail">
+                    <label for="level" class="label">Your level</label>
+                    <select id="level" name="level">
+                        <option value="nothing">Choose an option</option>
+                        <option value="n/a">I don't know</option>
+                        <option value="ele">Elementary</option>
+                        <option value="pre">Pre Intermediate</option>
+                        <option value="int">Intermediate</option>
+                        <option value="upper">Upper Intermediate</option>
+                        <option value="adv">Advanced</option>
+                    </select>
+                </div>
+            </fieldset>
+            
+            <!-- CAMPO 2 -->
+            <fieldset class="form__fieldset2">
+                <legend>Talk to me!</legend>
+                <div class="form__innerfield">
+                    <textarea name="consult" id="textarea" cols="50" rows="5" placeholder="Write your doubts here."></textarea>
+                </div>
+            </fieldset>
+
+            <!-- CAMPO 3 -->
+            <fieldset class="form__fieldset3">
+                <legend>Would you like to...</legend>
+                <div class="form__innerfield label form__checkbox">
+                    <div class="form__checkboxText">
+                        <input type="checkbox"> Get our newsletter?
+                    </div>
+                    <div class="form__checkboxText">
+                        <input type="checkbox"> Receive daily exercises?
+                    </div>
+                    <div class="form__checkboxText">
+                        <input type="checkbox"> Be contacted to start learning?
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- BOTONES -->
+            <div class="form__botones">
+                <input type="submit" value="Send" id="submit">
+                <input type="reset" value="Clear" id="reset">
+            </div>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <img class="footer__logoChico" src="images/Yes-logo.JPG" alt="logo">
+        <div class="footer__navbar text">
+            <ul class="footer__list">
+                <li><a class="footer__list-item" href="index.html">Home</a></li>
+                <li><a class="footer__list-item" href="aboutLean.html">About Lean</a></li>
+                <li><a class="footer__list-item" href="levelTest.html">Level Test</a></li>
+                <li><a class="footer__list-item" href="exercises.html">Exercises</a> </li>
+                <li><a class="footer__list-item" href="pricing.html">Pricing</a></li>
+                <li><a class="footer__list-item" href="contactLean.html">Contact Lean</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
